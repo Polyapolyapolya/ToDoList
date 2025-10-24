@@ -17,6 +17,6 @@
 ## ▶️ Как запустить
 
 1. Скачайте или клонируйте репозиторий:
-   git clone <https://github.com/Polyapolyapolya/ToDoList>
+   git clone <https://https://github.com/Polyapolyapolya/ToDoList>
 2. Откройте файл index.html в любом современном браузере (Chrome, Firefox, Edge и т.д.).
 3. Начните добавлять задачи!
