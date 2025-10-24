@@ -1,0 +1,101 @@
+body {
+  background-image: url('bgpic.jpg');
+  background-size: cover;        /* растягивает картинку на весь экран */
+  background-position: center;   /* центрирует изображение */
+  background-repeat: no-repeat;  /* не повторять */
+  background-attachment: fixed;  /* фон не прокручивается вместе с контентом */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#app-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #3d3d3d;
+  margin-top: 80px;
+  margin-bottom: 35px;
+  text-shadow: 0 1px 5px rgba(0,0,0,0.1); /* лёгкая тень для лучшей читаемости на фоне */
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #bcdf0d;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #d8fb78;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-item {
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  word-break: break-all;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1); /* лёгкая тень для отделения */
+  position: relative;
+}
+
+.save-btn {
+  background-color: #364afd;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  width: fit-content;
+}
+
+.save-btn:hover {
+  background-color: #8fa8fb;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #bcdf0d;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0 6px;
+  margin-left: 10px;
+  float: right;
+}
+
+.delete-btn:hover {
+  color: #d8fb78;
+}
